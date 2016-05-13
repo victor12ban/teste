@@ -20,11 +20,11 @@ public class Usuario {
 	public void setLogin(String login) {
 		this.login = login;
 	}
-	public String getNoeme() {
+	public String getNome() {
 		return nome;
 	}
-	public void setNoeme(String noeme) {
-		this.nome = noeme;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	public String getSenha() {
 		return senha;
@@ -45,6 +45,9 @@ public class Usuario {
 		this.nome = nome;
 		this.senha = senha;
 		this.email = email;
+	}
+	public Usuario() {
+		// TODO Auto-generated constructor stub
 	}
 	
 }
